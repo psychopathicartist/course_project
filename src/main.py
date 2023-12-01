@@ -1,8 +1,8 @@
-from utils import *
+from utils.utils import *
 
 if __name__ == "__main__":
     # Чтение файла
-    operations = json_file_load('../../course_project/operations.json')
+    operations = json_file_load('../operations.json')
 
     # Запись и сортировка списка с датами
     sorted_operations_date = date_list_make_and_sort(operations)
